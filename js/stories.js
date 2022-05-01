@@ -138,7 +138,6 @@ function putUsersStoriesOnPage() {
       let $story = generateStoryMarkup(story, true);
       $story.prepend(deleteButton());
       $userStories.append($story);
-      $userStories.append($story);
     }
   }
   $userStories.show();
